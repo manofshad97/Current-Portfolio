@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { info } from "../../jobInfo";
+import { jobInfo } from "../../jobInfo";
 import ReactTooltip from "react-tooltip";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import "./Skills.scss";
 
 const Skills = () => {
-  const experiences = info.experiences;
-  const skills = info.skills;
+  const experiences = jobInfo.experiences;
+  const skills = jobInfo.skills;
 
   return (
     <>

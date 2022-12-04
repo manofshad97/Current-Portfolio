@@ -51,6 +51,7 @@ const Work = () => {
     setAnimateCard([{ y: 100, opacity: 0 }]);
 
     setTimeout(() => {
+      //fade in and slide up
       setAnimateCard([{ y: 0, opacity: 1 }]);
       //Unless the filter is set to all, a project card only displays when the filter that is clicked is included in the projects tags.
       if (item === "All") {
@@ -85,17 +86,19 @@ const Work = () => {
           )
         )}
       </div>
-
+      {/*flexbox that holds all project cards. */}
       <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       >
         {filterWork.map((project, index) => (
+          //flexbox for individual project card
           <div className="app__work-item app__flex" key={index}>
+            {/*flexbox for image */}
             <div className="app__work-img app__flex">
               <img src={(project.imgUrl)} alt={project.name} />
-
+              {/*Div that holds github and web links. Appears on hover. */}
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
                 transition={{
@@ -105,7 +108,9 @@ const Work = () => {
                 }}
                 className="app__work-hover app__flex"
               >
+                {/*Link to website */}
                 <a href={project.projectLink} target="_blank" rel="noreferrer">
+                  {/*Motion div that holds eye icon. Increase size on view, decrease size on hover */}
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -115,7 +120,9 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
+                 {/*Link to github repo*/}
                 <a href={project.codeLink} target="_blank" rel="noreferrer">
+                   {/*Motion div that holds github icon. Increase size on view, decrease size on hover */}
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.9] }}
@@ -127,13 +134,14 @@ const Work = () => {
                 </a>
               </motion.div>
             </div>
-
+            
+            {/*Flexbox that holds project title, description and tag */}
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{project.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>
                 {project.description}
               </p>
-
+              {/*Only display first tag */}
               <div className="app__work-tag app__flex">
                 <p className="p-text">{project.tags[0]}</p>
               </div>

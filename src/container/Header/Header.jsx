@@ -72,7 +72,7 @@ const Header = () => (
       className="app__header-circles"
     >
       {/*Create a circular container div holding an image for each skill*/}
-      {[images.flutter, images.redux, images.sass].map((circle, index) => (
+      {[images.react, images.redux, images.sass].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img  src={circle} alt="profile_bg" />
         </div>

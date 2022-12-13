@@ -29,14 +29,14 @@ const Work = () => {
       codeLink: "https://github.com/manofshad97/Shad-Stocks",
     },
     {
-      name: "old-site",
-      title: "Previous Portfolio",
-      description: "Built from scratch using React, HTML AND CSS. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, similique. ", 
-      tags: ["React JS"],
+      name: "metaverse-app",
+      title: "Shad's Metaversus",
+      description: "Built from scratch using React, NEXT.js, Framer Motion and Tailwind CSS. Designed in figma.", 
+      tags: ["CSS Frameworks", "React JS"],
       imgUrl: images.about03,
-      projectLink: "https://stark-refuge-83516.herokuapp.com/",
+      projectLink: "https://shads-metaverse.netlify.app/",
       codeLink:
-        "https://github.com/burlingtoncodeacademy-students/react-portfolio-manofshad97/tree/master/client",
+        "https://github.com/manofshad97/Shads-Metaversus",
     }
   ];
   //Initialize entire projects array as the default filter for work/projects 

@@ -31,7 +31,7 @@ const Work = () => {
     {
       name: "metaverse-app",
       title: "Shad's Metaversus",
-      description: "Built from scratch using React, NEXT.js, Framer Motion and Tailwind CSS. Designed in figma.", 
+      description: "Metaverse App Promotional Page (Hypothetical). Built from scratch using React, NEXT.js, Framer Motion and Tailwind CSS. Designed in figma.", 
       tags: ["CSS Frameworks", "React JS"],
       imgUrl: images.about03,
       projectLink: "https://shads-metaverse.netlify.app/",

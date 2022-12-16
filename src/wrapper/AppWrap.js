@@ -12,8 +12,8 @@ const AppWrap = (Component, idName, classNames) =>
           <Component />
 
           <div className="copyright">
-            <p className="p-text">@2022 <a href="https://github.com/manofshad97" target="_blank">Shadman Ahmed</a></p>
-            <p className="p-text">All rights reserved</p>
+            <p className="p-text">@2022 <a href="https://github.com/manofshad97/Current-Portfolio" target="_blank">Shadman Ahmed</a></p>
+            <p className="p-text">| <a href="https://www.figma.com/file/PHpJ5fLFTgFBYxNcQfrXJB/Current-Portfolio?node-id=0%3A1&t=Qj9aMDvCiljrn0JE-3">Figma File</a> |</p>
           </div>
         </div>
         {/*Use id name that is passed in to see which section the user is on 

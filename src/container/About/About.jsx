@@ -19,7 +19,7 @@ const About = () => {
     },
     {
       title: "UI/UX",
-      description: "I follow UI/UIX best practices when designing",
+      description: "I am familiar with wireframing and UI/UX tools such as Figma.",
       imgUrl: images.about03,
     },
     {

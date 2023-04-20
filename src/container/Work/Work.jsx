@@ -36,7 +36,7 @@ const Work = () => {
       imgUrl: images.about03,
       projectLink: "https://shads-metaverse.netlify.app/",
       codeLink:
-        "https://github.com/manofshad97/Shads-Metaversus",
+        "https://shad-ahmed.com",
     }
   ];
   //Initialize entire projects array as the default filter for work/projects 

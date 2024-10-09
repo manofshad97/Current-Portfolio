@@ -9,12 +9,12 @@ const About = () => {
   const abouts = [
     {
       title: "Web Development",
-      description: "I am a passionate web developer",
+      description: "I am a passionate web developer.",
       imgUrl: images.about01,
     },
     {
       title: "Web Design",
-      description: "I strive to be as creative in design as possible",
+      description: "I strive to be as creative in design as possible.",
       imgUrl: images.about02,
     },
     {
@@ -24,7 +24,7 @@ const About = () => {
     },
     {
       title: "Web Animations",
-      description: "I am familiar with numerous animation libaries as well as keyframes",
+      description: "I am familiar with numerous animation libaries as well as keyframes.",
       imgUrl: images.about04,
     },
   ];

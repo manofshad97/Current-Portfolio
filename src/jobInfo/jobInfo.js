@@ -33,11 +33,24 @@ const experiences = [
       },
     ],
   },
+
+  {
+    year: 2023,
+    jobs: [
+      {
+        name: "Associate Email Developer",
+        company: "EBG",
+        description:
+          "In my role with EBG, I coded and developed highly dynamic merchandizing email campaigns (combination of html and liquid script), triggered campaigns, drip experiences, as well as fresh email templates for new campaigns. ",
+      },
+    ],
+  },
+  
 ];
 
 const skills = [
   {
-    name: "Materiaul UI",
+    name: "Material UI",
     bgColor: "#edf2f8",
     icon: images.mu5,
   },
